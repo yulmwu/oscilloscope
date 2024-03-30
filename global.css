@@ -23,6 +23,11 @@ html {
 
 /* Classes */
 
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
 .text-stroke {
     -webkit-text-stroke: 2px #fff;
 }
