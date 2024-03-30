@@ -14,8 +14,6 @@ export default (props: Props) => {
 
     const { fontSize, stroke, color, uppercase, className, children } = props
 
-    console.log(color ?? (toggle ? 'text-white' : 'text-gray-800'))
-
     return (
         <p
             className={`${fontSize ?? 'text-9xl'} bg-transparent inline-block word-spacing ${
