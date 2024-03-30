@@ -1,0 +1,31 @@
+{
+    "name": "app",
+    "type": "module",
+    "scripts": {
+        "dev": "vite --host",
+        "build:tsc": "if [ -d build ]; then rm -rf build; fi; tsc",
+        "build": "npm run build:tsc && vite build",
+        "preview": "vite preview",
+        "deploy": "npm run build && gh-pages -d build"
+    },
+    "dependencies": {
+        "@wellyshen/use-web-animations": "^0.9.1",
+        "react": "^18.2.0",
+        "react-awesome-reveal": "^4.2.8",
+        "react-dom": "^18.2.0",
+        "vanta": "^0.5.24",
+        "zustand": "^4.5.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.55",
+        "@types/react-dom": "^18.2.19",
+        "@vitejs/plugin-react": "^4.2.1",
+        "autoprefixer": "^10.4.17",
+        "gh-pages": "^6.1.1",
+        "postcss": "^8.4.35",
+        "tailwindcss": "^3.4.3",
+        "typescript": "^5.3.3",
+        "vite": "^5.1.1"
+    },
+    "types": "./global.d.ts"
+}
