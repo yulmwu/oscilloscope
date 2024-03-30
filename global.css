@@ -5,14 +5,14 @@
 /* Global */
 
 @font-face {
-    font-family: 'ROKAF';
-    font-style: normal;
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-weight: 400;
-    src: url('/resources/fonts/ROKAF Sans Bold.ttf') format('truetype');
+    font-style: normal;
 }
 
 * {
-    font-family: 'ROKAF', sans-serif;
+    font-family: 'Pretendard-Regular', sans-serif;
 }
 
 html {
